@@ -1,6 +1,7 @@
 ul {
   list-style: none;
   font-family: futura;
+  text-align: center;
 }
 
 a {
@@ -9,5 +10,7 @@ a {
 }
 
 img {
-  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
