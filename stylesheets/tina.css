@@ -22,10 +22,11 @@ a:visited {
 }
 
 h6 {
-  color: grey;
-  font-size: 10px;
+  color: powderblue;
+  font-size: 12px;
   font-family: tahoma;
   letter-spacing:2px;
+  font-weight: bolder;
 }
 
 img {
