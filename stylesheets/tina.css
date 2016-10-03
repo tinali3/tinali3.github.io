@@ -1,16 +1,36 @@
 ul {
   list-style: none;
-  font-family: futura;
+  font-family: tahoma;
   text-align: center;
+  letter-spacing: 5px;
+  font-size: 18px;
 }
 
 a {
   color:lightblue;
-  font-family: futura;
+  font-family: tahoma;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+h6 {
+  color: grey;
+  font-size: 10px;
+  font-family: tahoma;
+  letter-spacing:2px;
 }
 
 img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  opacity:0.7;
 }
