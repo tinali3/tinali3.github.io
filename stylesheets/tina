@@ -1,0 +1,9 @@
+ul {
+  list-style: none;
+  font-family: futura;
+}
+
+a {
+  color:lightblue;
+  font-family: futura;
+}
