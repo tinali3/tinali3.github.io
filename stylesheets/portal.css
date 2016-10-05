@@ -1,9 +1,16 @@
 ul {
+  text-align:left;
   list-style: none;
   font-family: tahoma;
-  text-align: center;
   letter-spacing: 5px;
+  line-height: 25px;
   font-size: 18px;
+  padding: 10px;
+}
+
+footer h6 a {
+  font-weight:bold;
+  color: lightsteelblue;
 }
 
 a {
@@ -23,11 +30,10 @@ a:visited {
 }
 
 h6 {
-  color: #daebe8;
+  color: powderblue;
   font-size: 12px;
   font-family: tahoma;
   letter-spacing:2px;
-  font-weight: bolder;
 }
 
 img {
