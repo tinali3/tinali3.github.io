@@ -33,6 +33,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border: 10px #daebe8;
+  border-color: #daebe8;
+  border-style: double;
+  border:10px;
   opacity:0.7;
 }
