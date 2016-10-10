@@ -1,7 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans';
+
 ul {
   text-align:left;
   list-style: none;
-  font-family: tahoma;
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 5px;
   line-height: 25px;
   font-size: 18px;
