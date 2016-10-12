@@ -88,6 +88,12 @@ a {
   color: #707a7e;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
 
 }
 
