@@ -1,37 +1,87 @@
 /* color palette http://www.color-hex.com/color-palette/13682 */
+.header img {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
+
+header {
+    background-color: white;
+    padding-bottom: 1px;
+    border: 5px double #707a7e;
+}
 
 nav {
   float: left;
-  padding: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+.index {
+  padding-left: 35px;
 }
 
 article {
-  width: 700px;
+  width: auto;
   padding: 25px;
 }
 
 footer {
-  clear: both;
-  background-color: #e3e8ea;
+  background-color: white;
   padding: 25px;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #bccad0;
-    min-width: 20px;
-    padding: 12px 16px;
+	background:#bccad0;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:30px;
+}
+.dropdown-content li {
+  float:left;
+}
+.dropdown-content li a {
+	padding:9px 20px;
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-family: 'Montserrat', sans-serif;;
+  font-size: 14px;
+  opacity: 0.7;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-    border: 1px solid white;
+.dropdown-content li a:hover {
+  opacity: 1;
+}
+
+/* Submenu */
+.dropdown-content ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.dropdown-content li:hover {
+  position:relative;
+  background:#bccad0;
+}
+.dropdown-content li:hover ul {
+	left:0px;
+	top:30px;
+	background:#bccad0;
+	padding:0px;
+}
+
+.dropdown-content li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+	background-color:#bccad0;
+}
+.dropdown-content li:hover ul li a:hover {
+  background:#bccad0;
+  color: #9ba8ae;
 }
 
 h1 {
@@ -48,30 +98,8 @@ h2 {
   text-align: right;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  display: block;
-  text-align:left;
-  color: white;
-}
-
 h6 {
-  font-family: 'Montserrat', sans-serif;
-}
-
-span {
-  font-family: helvetica;
-  font-size: 20px;
-  padding: 10px;
-  color: white;
-  opacity: 0.5;
-  filter: alpha(opacity=50)
-}
-
-span:hover {
-  opacity: 1;
-  filter: alpha(opacity=30); /* For IE8 and earlier */
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -107,8 +135,7 @@ a:visited {
 }
 
 div.img {
-    display:block;
-    float:right;
+    padding: 35px;
     width: 180px;
     opacity: 0.5;
 }
@@ -118,13 +145,13 @@ div.img:hover {
 }
 
 div.img img {
-    width: 150%;
+    width: 200%;
     height: auto;
 }
 
 div.desc {
     padding: 10px;
-    text-align: right;
     font-family: 'Montserrat', sans-serif;
+    text-align: left;
     color: white;
 }
