@@ -1,3 +1,22 @@
+/* color palette http://www.color-hex.com/color-palette/13682 */
+
+nav {
+  float: left;
+  padding: 30px;
+}
+
+article {
+  float: right;
+  width: 700px;
+  padding: 25px;
+}
+
+footer {
+  clear: both;
+  background-color: #495054;
+  padding: 25px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -6,20 +25,39 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ceddda;
-    min-width: 160px;
+    background-color: #bccad0;
+    min-width: 20px;
     padding: 12px 16px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    border: 1px solid white;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
   font-size:50px;
   text-align:center;
-  color:white;
+  color:#495054;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  display: block;
+  text-align:left;
+  color: white;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 span {
@@ -27,6 +65,13 @@ span {
   font-size: 20px;
   padding: 10px;
   color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50)
+}
+
+span:hover {
+  opacity: 1;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
 ul {
@@ -40,10 +85,10 @@ ul {
 }
 
 a {
-  color:white;
+  color: #e3e8ea;
   text-decoration: none;
   letter-spacing: 1px;
-  background-color:#ceddda;
+
 }
 
 a:hover {
@@ -52,5 +97,5 @@ a:hover {
 
 a:visited {
   text-decoration: underline;
-  color:lightsteelblue;
+  color: #e3e8ea;
 }
