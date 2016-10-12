@@ -6,7 +6,6 @@ nav {
 }
 
 article {
-  float: right;
   width: 700px;
   padding: 25px;
 }
@@ -46,6 +45,7 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   color: white;
+  text-align: right;
 }
 
 p {
@@ -100,13 +100,25 @@ a:visited {
   color: #495054;
 }
 
-img {
-  float:left;
-  opacity: 0.5;
-  width: 45%;
-  height: auto;
+div.img {
+    display:block;
+    float:right;
+    width: 180px;
+    opacity: 0.5;
 }
 
-img:hover {
-  opacity: 1;
+div.img:hover {
+    opacity: 1;
+}
+
+div.img img {
+    width: 150%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
