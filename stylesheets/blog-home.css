@@ -135,7 +135,9 @@ a:visited {
 }
 
 div.img {
-    padding: 35px;
+  display: block;
+  margin: 0 auto;
+    padding: 20px;
     width: 180px;
     opacity: 0.5;
 }
