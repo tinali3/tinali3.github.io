@@ -81,7 +81,7 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #1A1A1A;
+  color: rgba(26,26,26,0.8);
   text-align: right;
 }
 
@@ -90,6 +90,7 @@ h3 {
   line-height: 0px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  padding-top:10px;
 }
 
 h4 {
@@ -98,6 +99,7 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 15px;
+  padding: 10px 0 5px 0;
 }
 
 p {
@@ -106,6 +108,25 @@ p {
   font-size: 14px;
   width:350px;
   height:auto;
+}
+
+hr {
+  color:#1a1a1a;
+
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+}
+
+h6 a {
+  text-decoration: none;
+  color: rgba(26,26,26,0.6);
+}
+
+h6 a:hover {
+  color: #1a1a1a;
 }
 
 nav {
@@ -118,4 +139,18 @@ article {
   padding: 35px 35px 35px 35px;
   background-color:rgba(255,255,255,0.8);
   margin-right:100px;1
+}
+
+footer h6{
+    margin-top: 380px;
+    margin-left:20px;
+}
+
+footer a {
+  position:fixed;
+  opacity: 0.5;
+}
+
+footer a:hover {
+  opacity:0.9;
 }
