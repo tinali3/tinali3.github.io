@@ -1,3 +1,19 @@
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 120%;
+  min-height: 120%;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
 
 body img {
   position: fixed;
