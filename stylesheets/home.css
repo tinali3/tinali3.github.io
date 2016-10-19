@@ -1,0 +1,33 @@
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 1500px;
+  min-height: 1000px;
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+}
+
+
+body img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -60px;
+  margin-left: -100px;
+  height:200px;
+  width:auto;
+}
+
+a {
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.7;
+}
