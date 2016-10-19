@@ -29,6 +29,7 @@ img {
   	padding:9px 20px;
   	display:block;
   	color:white;
+    background: rgba(26,26,26,0.3);
   	text-decoration:none;
   	font-family: 'Montserrat', sans-serif;;
     font-size: 14px;
