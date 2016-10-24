@@ -156,7 +156,7 @@ h2 {
 
 h3 {
   color: #1A1A1A;
-  line-height: 0px;
+  line-height: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   padding-top:10px;
@@ -169,6 +169,7 @@ h4 {
   font-weight: 400;
   font-size: 15px;
   padding: 10px 0 5px 0;
+  line-height:15px;
 }
 
 .column img {
