@@ -63,8 +63,13 @@ body {
 #past {
   position: fixed;
   z-index: 1;
-  margin: auto;
+	margin-left: 20%;
   display:block;
+}
+
+img {
+	width: 800px;
+	height:auto;
 }
 
 #container {
@@ -79,6 +84,7 @@ p {
   font-family:'Open Sans', sans-serif;
   font-size:14px;
   color: #585858;
+	line-height:18px;
   text-indent: 16px;
   padding: 10px;
 }
@@ -102,12 +108,12 @@ ul {
 
 li a {
   text-decoration: none;
-  line-height: 25px;
+  line-height: 22px;
   display: block;
   width: 60px;
 }
 
-a:link {
+li a:link {
   color: white;
 }
 
@@ -120,7 +126,14 @@ a:active {
 }
 /*nav end */
 
-footer {
+footer a{
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
+}
+
+h6 a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #585858;
+	text-decoration: none;
 }

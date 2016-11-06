@@ -1,0 +1,42 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding: 20px 0 10px 0;
+  border: 3px solid white;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+body {
+  background-color: #f7d5c5;
+}
+
+.button {
+  display:inline-block;
+  position:relative;
+}
+
+p {
+  position:absolute;
+   top:0px;
+   left:0px;
+  margin: 0px;
+  width:300px;
+  height:300px;
+  text-align: center;
+  line-height:300px;
+  font-family:'Open Sans', sans-serif;
+  font-size:24px;
+  font-weight: bold;
+  color: white;
+}
+
+#past, #present, #future {
+  background-color: rgba(88,88,88,0.7);
+}
+
+a:hover #past, a:hover #present, a:hover #future{
+  background-color: rgba(88,88,88,0);
+}
