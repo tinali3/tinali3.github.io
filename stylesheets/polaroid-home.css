@@ -73,7 +73,7 @@ h2 {
 
 /*----BODY STYLE-----*/
 body {
-  background-color: #f7d5c5;
+  background-color: #abc9cf;
 }
 
 #headerBorder {
@@ -83,10 +83,10 @@ body {
 
 h3 {
   text-align: left;
-  color:  #f7d5c5;
+  color:  #abc9cf;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
   margin-left: 40px;
 }
 
@@ -100,13 +100,13 @@ h4 {
   text-align: right;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
   margin-right: 40px;
 }
 
 h4 a {
   text-decoration: none;
-  color:  #f7d5c5;
+  color: #abc9cf;
 }
 
 h4 a:hover {
@@ -116,7 +116,7 @@ h4 a:hover {
 /*----BODY CONTENT----*/
 #content {
     width: 100%;
-    background: #f7d5c5;
+    background: #abc9cf;
     height: 450px;
 }
 
@@ -166,7 +166,7 @@ footer {
 h6 li{
   font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #585858;
+	color:  #585858;
   display: table-cell;
   border-right: 1px solid grey;
   padding: 0 10px 0 10px;
