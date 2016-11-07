@@ -147,7 +147,6 @@ ul {
   position: fixed;
   height: 22%;
   overflow: auto;
-  border: 2px solid white;
 }
 
 li a {
