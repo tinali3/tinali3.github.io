@@ -185,8 +185,9 @@ h6 a{
 .top img{
 	position:fixed;
 	bottom:50px;
-	height:10%;
+	height:7%;
 	width:auto;
 	margin-top: 450px;
 	margin-left:660px;
+	opacity: 0.5;
 }
