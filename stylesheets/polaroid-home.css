@@ -51,7 +51,9 @@ table {
 
 /*-----HEADER STYLES-----*/
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ek Mukta', sans-serif;
+	font-weight: 700;
+	letter-spacing: 5px;
   text-align: center;
   font-size: 40px;
   color: white;
@@ -63,8 +65,9 @@ h1 {
 h2 {
   text-align: right;
   color:white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-family: 'Ek Mukta', sans-serif;
+	letter-spacing: 5px;
+  font-size: 18px;
   margin-right:400px;
   padding:10px 0 10px 0;
 }
@@ -165,16 +168,21 @@ footer {
 
 h6 li{
   font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 14px;
-	color:  #585858;
+	color:  #abc9cf;
   display: table-cell;
   border-right: 1px solid grey;
   padding: 0 10px 0 10px;
   list-style: none;
 }
 
+h6 li:last-child {
+	border-right:none;
+}
+
 h6 a{
-  color: #585858;
+  color: #abc9cf;
 	text-decoration: none;
 }
 
