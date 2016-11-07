@@ -1,11 +1,15 @@
+body {
+  background-image: url("https://static1.squarespace.com/static/5437fa30e4b06fcc1e2ca439/t/57e3049237c58191c3c1706b/1474495644063/peace.jpg?format=1500w");
+}
 
-/*drop down nav bar */
+
+/*nav bar */
 .dropdown-content {
   padding:20px 0 25px 0;
   margin:0;
   list-style-type:none;
   height:30px;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 .dropdown-content li {
   float: left;
@@ -18,7 +22,7 @@
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   opacity: 0.95;
-  background-color:#daebe8;
+  background-color:rgba(218, 235, 232, .7);
 }
 
 .dropdown-content li a:hover {
@@ -26,44 +30,28 @@
   color: lightsteelblue;
 }
 
-/* Submenu */
-.dropdown-content ul {
-  position:absolute;
-  left:-9999px;
-  top:-9999px;
-  list-style-type:none;
-}
-.dropdown-content li:hover {
-  position:relative;
-  background: grey;
-}
-.dropdown-content li:hover ul {
-  left:0px;
-  top:30px;
-  background: none;
-  padding-top: 10px;
+/*end of drop down nav bar*/
+
+#wrapper {
+  margin-left: 20%;
+  display:block;
 }
 
-.dropdown-content li:hover ul li a {
-  padding:5px;
-  display:block;
-  width:168px;
-  text-indent:15px;
-  background-color: grey;
+footer {
+  margin: 30px;
+  background-color: rgba(255,255,255,.3);
+  border: 1px double rgb(218, 235, 232);
+  margin-right: 30%;
+
 }
-.dropdown-content li:hover ul li a:hover {
-  background:#daebe8;
-  color: #1A1A1A;
-}
-/*end of drop down nav bar*/
 
 footer h6 a {
   font-weight:bold;
-  color: lightsteelblue;
+  color: rgba(255,255,255,0.8);
 }
 
 a {
-  color:lightblue;
+  color:white;
   text-decoration: none;
   letter-spacing: 1px;
 
@@ -75,11 +63,11 @@ a:hover {
 
 a:visited {
   text-decoration: underline;
-  color:lightsteelblue;
+  color:white;
 }
 
 h6 {
-  color: powderblue;
+  color: grey;
   font-size: 12px;
   font-family: 'Quicksand', sans-serif;
   letter-spacing:2px;
@@ -88,7 +76,6 @@ h6 {
 }
 
 img {
-  margin: auto;
   height:200px;
   width:800px;
   display: block;
