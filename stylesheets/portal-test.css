@@ -37,7 +37,7 @@ li ul {
    display: block;
    text-decoration: none;
    color: #777;
-   background: rgba(255,255,255,0.8);
+   background: rgba(255,255,255,0.6);
    padding: 5px;
    border: 1px solid #ccc;
    border-bottom: 0;
@@ -45,9 +45,8 @@ li ul {
    font-size: 17px;
  }
 
- li:hover ul {
+ li:hover ul{
    display: block;
-   background: #daebe8;
    color: grey;
 }
 /* END NAV BAR */
