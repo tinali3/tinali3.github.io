@@ -53,18 +53,22 @@ body {
   background-image: url("../images/cc-bg.jpg");
 }
 
-.header {
-  position:relative;
-}
-
 /*--logo--*/
 img{
-  width:210px;
+  width: 210px;
   height:auto;
   top: 0;
   left: 0;
   padding: 20px 0 20px 100px;
 }
+
+@media (max-width: 800px) {
+  img {
+    margin: auto;
+    display: block;
+  }
+}
+
 /*--nav bar--*/
 nav {
   width: 1000px;
@@ -93,6 +97,12 @@ li a {
 
 /*--nav bar end--*/
 
+@media (max-width: 800px) {
+  nav {
+    display:none;
+  }
+}
+
 /*--main section--*/
 #wrapper {
   width: 500px;
@@ -112,5 +122,15 @@ p {
   color: white;
   line-height: 21.6px;
   padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 71.92px;
+  }
+  p {
+    font-size: 21.35px;
+    line-height: 25.62px;
+  }
 }
 /*--end of main--*/
