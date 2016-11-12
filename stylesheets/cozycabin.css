@@ -54,7 +54,7 @@ body {
 }
 
 /*--logo--*/
-img{
+.header img{
   width: 210px;
   height:auto;
   top: 0;
@@ -62,17 +62,32 @@ img{
   padding: 20px 0 20px 100px;
 }
 
+.menu img {
+  width: 50px;
+  height: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .menu img {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   body {
     background-image: url("../images/cc-mobile-bg.jpg");
   }
-  img {
+  .header img {
     margin: auto;
     display: block;
+  }
+  .menu img {
+    margin:0;
   }
 }
 
 /*--nav bar--*/
+
 nav {
   width: 1000px;
   margin-top:100px;
