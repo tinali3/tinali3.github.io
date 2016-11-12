@@ -63,6 +63,9 @@ img{
 }
 
 @media (max-width: 800px) {
+  body {
+    background-image: url("../images/cc-mobile-bg.jpg");
+  }
   img {
     margin: auto;
     display: block;
@@ -97,7 +100,7 @@ li a {
 
 /*--nav bar end--*/
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   nav {
     display:none;
   }
