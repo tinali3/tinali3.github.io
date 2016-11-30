@@ -118,7 +118,7 @@ li .drop {
 }
 
 .dropdown a:hover {
-    color: lightsteelblue;
+    color: #91C8D6;
 }
 
 .drop:hover .dropdown {
@@ -229,7 +229,7 @@ li .drop {
 }
 
 .dropdown a:hover {
-    color: lightsteelblue;
+    color: #91C8D6;
 }
 
 .drop:hover .dropdown {
@@ -278,6 +278,7 @@ figcaption p {
 }
 
 .portfolio-img {
+  padding: 20px 0 20px 0;
   display:block;
     max-width: 300px;
     margin: 0 auto;
@@ -371,6 +372,6 @@ h6 {
 
 h6 a {
 	text-decoration: none;
-	color: lightsteelblue;
+	color: grey;
 }
 /*---footer ends---*/
