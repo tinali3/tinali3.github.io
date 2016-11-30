@@ -49,7 +49,7 @@ table {
 
 @media only screen and (min-width: 640px) {
 #wrapper {
-	width: 1240px;
+	width: 100%;
 	height: auto;
 	margin: auto;
 }
@@ -177,11 +177,11 @@ li {
     float: left;
 }
 
-li a, .dropbtn {
+.nav li a, .dropbtn {
     display: inline-block;
     color: grey;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 50px 20px 50px;
     text-decoration: none;
 		font-family: 'Source Sans Pro', sans-serif;
 }
@@ -230,7 +230,33 @@ li .drop {
     width: 90%;
 		padding: 20px 20px 20px 50px;
 }
+figcaption{
+  width: 60%;
+  margin: auto;
+}
 
+figcaption h1 {
+  text-align: left;
+  letter-spacing: 2px;
+  color:grey;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+figcaption p {
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 15px;
+  padding-top: 5px;
+}
+
+.portfolio-img {
+  display:block;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 90%;
+		padding: 20px 20px 20px 50px;
+}
 .left-mobile a img, .right-mobile a img {
 	display: none;
 }
@@ -238,10 +264,10 @@ li .drop {
 @media only screen and (min-width: 640px) {
 
   main {
-    width:75%;
+    width:85%;
     margin:auto;
   }
-
+/*for project pages*/
   figure {
     display: table;
     margin-top: 5%;
@@ -252,44 +278,41 @@ li .drop {
     display: table-cell;
     vertical-align: top;
 }
-figcaption h1 {
-  text-align: left;
-  letter-spacing: 2px;
-  color:grey;
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-figcaption p {
-  font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 15px;
-  padding-top: 5px;
-}
 
   .portfolio-img {
     width: 80%;
     display: table-cell;
   }
-
+/*end of project pages*/
   .button {
     display: inline;
   }
-  .button .row1 {
-    display: table-row;
+  .button ul .row1, .button ul .row2 {
+    display: table;
+    margin: 0 auto;
   }
   .button img{
-    padding: 5px;
+    padding: 20px;
   }
 
-	.left-mobile a img{
-		display: none;
-		width: 20px;
-		height: auto;
-	}
+  .arrows {
+    display: inline;
+    position: relative;
+    z-index: -1;
+  }
 
-	.right-mobile a img{
-		display: none;
-		width: 20px;
+  .arrows ul li:nth-child(2) {
+    text-align: right;
+    float: right;
+    display: table-row;
+  }
+
+  .arrows li a .left {
+    display: table-row;
+}
+
+	.arrows ul li a img{
+		width: 10%;
 		height: auto;
 	}
 
