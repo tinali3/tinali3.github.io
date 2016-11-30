@@ -272,7 +272,6 @@ li .drop {
     display: block;
     max-width: 300px;
     margin: 0 auto;
-    width: 90%;
     padding: 20px 20px 20px 50px;
 }
 
@@ -338,7 +337,7 @@ figcaption p a:visited {
 }
 
 @media only screen and (min-width: 640px) {
-    main {
+    main .projects {
         width: 85%;
         margin: auto;
     }
@@ -362,6 +361,15 @@ figcaption p a:visited {
     .button {
         display: inline;
     }
+    .button ul {
+      width: 100%;
+      display: table;
+    }
+
+    .button li img {
+      width: 80%;
+    }
+
     .button ul .row1, .button ul .row2 {
         display: table;
         margin: 0 auto;
