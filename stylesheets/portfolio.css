@@ -305,12 +305,36 @@ figcaption p {
     padding-top: 5px;
 }
 
+figcaption p a {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    text-decoration: none;
+    line-height: 15px;
+    padding-top: 5px;
+}
+
+figcaption p a:visited {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #91C8D6;
+    line-height: 15px;
+    padding-top: 5px;
+}
+
 .portfolio-img {
     padding: 20px 0 20px 0;
     display: block;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+}
+
+/*pdf file*/
+.projects object {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
 
 @media only screen and (min-width: 640px) {
@@ -323,6 +347,7 @@ figcaption p {
         display: table;
         margin-top: 5%;
     }
+
     figcaption {
         width: 40%;
         padding-right: 10%;
@@ -360,6 +385,12 @@ figcaption p {
     .arrows ul li a img {
         width: 7%;
         height: auto;
+    }
+    /*pdf file*/
+    .projects object {
+      width: 100%;
+      height: 1000px;
+      padding: 20px 0 20px 0;
     }
 }
 
