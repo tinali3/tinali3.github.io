@@ -6,6 +6,7 @@
 <head>
     <title>tina li | designer</title>
     <link href="stylesheets/portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
     <a name="top"></a>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -30,31 +31,30 @@
           </ul>
       </div>
         <img class="logo" src="images/tinali.png" width="450" height="594" alt="logo" />
-        <h1>tina li | graphic design | web design</h1>
+        <!--start of nav-->
+        <section class="nav">
+            <!--http://blog.teamtreehouse.com/create-an-absolute-basic-mobile-css-responsive-navigation-menu-->
+                <ul class="nav-desktop">
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">works</a></li>
+                    <li><a class="logo-nav" href="portfolio.html"><img src="images/tinali.png" width="450" height="594" alt="logo" /></a></li>
+                    <li><a href="#">resume</a></li>
+                    <li class="drop"><a href="#" class="dropbtn">contact</a>
+                        <div class="dropdown">
+                            <a href="#">email</a>
+                            <a href="#">codepen</a>
+                            <a href="index.html">blog</a>
+                          </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--end of nav-->
+        <h1>tina li | graphic design | minimalist </h1>
     </header>
-    <!--start of nav-->
-    <section class="nav">
-        <!--http://blog.teamtreehouse.com/create-an-absolute-basic-mobile-css-responsive-navigation-menu-->
-            <ul class="nav-desktop">
-                <li><a href="#">about</a></li>
-                <li><a href="#">works</a></li>
-                <li><a class="logo-nav" href="portfolio.html"><img src="images/tinali.png" alt="logo" /></a></li>
-                <li><a href="#">resume</a></li>
-                <li class="drop"><a href="#" class="dropbtn">contact</a>
-                    <div class="dropdown">
-                        <a href="#">email</a>
-                        <a href="#">codepen</a>
-                        <a href="#">github</a>
-                        <a href="#">linkedin</a>
-                      </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!--end of nav-->
 
     <!--start of content-->
-    <section class="projects">
+    <main class="projects">
         <div class="left-mobile">
             <a href="#">
                 <img src="images/left.png" height="372" width="193" alt="left" />
@@ -65,25 +65,22 @@
                 <img src="images/right.png" height="372" width="193" alt="right" /></a>
             </a>
         </div>
-        <div class="button">
-            <a href="project1.html"><img src="images/projects/project1.png" alt="project1" /></a>
-        </div>
-        <div class="button">
-            <a href="#"><img src="images/projects/project2.png" alt="project2" /></a>
-        </div>
-        <div class="button">
-            <a href="#"><img src="images/projects/project3.png" alt="project3" /></a>
-        </div>
-        <div class="button">
-            <a href="#"><img src="images/projects/project4.png" alt="project4" /></a>
-        </div>
-        <div class="button">
-            <a href="#"><img src="images/projects/project5.png" alt="project5" /></a>
-        </div>
-        <div class="button">
-            <a href="#"><img src="images/projects/project6.png" alt="project6" /></a>
-        </div>
-    </section>
+        <nav class="button">
+          <ul>
+            <div class="row1">
+              <li><a href="project1.html"><img src="images/projects/project1.png" alt="project1" /></a></li>
+              <li><a href="project2.html"><img src="images/projects/project2.png" alt="project2" /></a></li>
+              <li><a href="project3.html"><img src="images/projects/project3.png" alt="project3" /></a></li>
+            </div>
+            <div class="row2">
+              <li><a href="project4.html"><img src="images/projects/project4.png" alt="project4" /></a></li>
+              <li><a href="project5.html"><img src="images/projects/project5.png" alt="project5" /></a></li>
+              <li><a href="project6.html"><img src="images/projects/project6.png" alt="project6" /></a></li>
+            </div>
+          </ul>
+        </nav>
+      </main>
+
     <!--end of content-->
 
     <!--start of footer-->
