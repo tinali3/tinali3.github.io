@@ -95,6 +95,11 @@ h1 {
     position: absolute;
 }
 
+.nav-mobile .drop a#menu-icon img{
+  width: 50%;
+  height: auto;
+}
+
 #menu-icon {
     display: inline-block;
     color: grey;
@@ -130,8 +135,8 @@ li .drop {
 .nav-mobile .drop .dropdown {
     background-color: none;
     padding: 10px;
-    top: 90px;
-    left: 20px;
+    top: 50px;
+    left: 5px;
 }
 
 .nav-mobile .drop .dropdown a {
