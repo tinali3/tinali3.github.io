@@ -184,7 +184,7 @@ li .drop {
     }
     .nav-desktop li:nth-child(1), .nav-desktop li:nth-child(2), .nav-desktop li:nth-child(4), .nav-desktop li:nth-child(5) {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 5%;
     }
     .nav-desktop li:nth-child(1) a:hover, .nav-desktop li:nth-child(2) a:hover, .nav-desktop li:nth-child(4) a:hover, .nav-desktop li:nth-child(5) a:hover {
         font-weight: 600;
