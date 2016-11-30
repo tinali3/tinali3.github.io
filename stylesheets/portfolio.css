@@ -344,12 +344,12 @@ figcaption p a:visited {
     /*for project pages*/
     figure {
         display: table;
-        margin-top: 5%;
+        margin: 5%;
     }
 
     figcaption {
         width: 40%;
-        padding-right: 10%;
+        padding: 0 3% 0 5%;
         display: table-cell;
         vertical-align: top;
     }
@@ -412,7 +412,7 @@ figcaption p a:visited {
     display: block;
     position: fixed;
     bottom: 30px;
-    height: 4%;
+    height: 3%;
     width: auto;
     padding: 20px;
     left: 85%;
