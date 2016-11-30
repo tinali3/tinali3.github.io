@@ -48,46 +48,51 @@ table {
 /*-------START OF STYLE--------*/
 
 @media only screen and (min-width: 640px) {
-#wrapper {
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
+    #wrapper {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
 }
 
+
 /*---header start---*/
+
 .logo {
-	display:block;
-	position: relative;
+    display: block;
+    position: relative;
     max-width: 300px;
     margin: 0 auto;
     width: 15%;
-		height: auto;
-		padding: 100px 10px 10px 10px;
+    height: auto;
+    padding: 100px 10px 10px 10px;
 }
 
 @media only screen and (min-width: 640px) {
-	.logo {
-		display: none;
-	}
+    .logo {
+        display: none;
+    }
 }
 
 h1 {
     text-align: center;
-		letter-spacing: 2px;
-		color:grey;
-		font-size: 15px;
-		font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 /*---header end---*/
 
 
 /*---nav start----*/
 
+
 /* mobile nav */
+
 .mobile-dropdown {
-	position: absolute;
+    position: absolute;
 }
 
 #menu-icon {
@@ -121,80 +126,78 @@ li .drop {
 .dropdown a:hover {
     color: #91C8D6;
 }
+
 .nav-mobile .drop .dropdown {
-  background-color: none;
-  padding:10px;
-  top:90px;
-  left:20px;
+    background-color: none;
+    padding: 10px;
+    top: 90px;
+    left: 20px;
 }
+
 .nav-mobile .drop .dropdown a {
-  text-align: left;
+    text-align: left;
 }
 
 .drop:hover .dropdown {
     display: block;
 }
+
 .nav-desktop {
-	display: none;
+    display: none;
 }
 
 .arrows {
-  display: none;
+    display: none;
 }
 
 @media only screen and (min-width: 640px) {
     .mobile-dropdown {
-				display:none;
+        display: none;
     }
     #menu-icon {
         display: hidden;
     }
-		.nav {
-		    width: 75%;
+    .nav {
+        width: 75%;
         margin: auto;
         text-align: center;
-		}
+    }
     .nav ul {
-      width: 100%;
-      display: table;
+        width: 100%;
+        display: table;
     }
     .nav li {
-      width: 20%;
-      height: auto;
-      display: table-cell;
-      text-align: center;
-      vertical-align: middle;
+        width: 20%;
+        height: auto;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
     }
-
-		.nav-desktop {
-			display: inline-block;
-      padding-top: 30px;
-		}
-
+    .nav-desktop {
+        display: inline-block;
+        padding-top: 30px;
+    }
     .nav-desktop li:nth-child(1), .nav-desktop li:nth-child(2), .nav-desktop li:nth-child(4), .nav-desktop li:nth-child(5) {
-      text-align: center;
-      padding-top: 50px;
+        text-align: center;
+        padding-top: 50px;
     }
-    .nav-desktop li:nth-child(1) a:hover, .nav-desktop li:nth-child(2) a:hover, .nav-desktop li:nth-child(4) a:hover, .nav-desktop li:nth-child(5) a:hover{
-      font-weight: 600;
+    .nav-desktop li:nth-child(1) a:hover, .nav-desktop li:nth-child(2) a:hover, .nav-desktop li:nth-child(4) a:hover, .nav-desktop li:nth-child(5) a:hover {
+        font-weight: 600;
     }
-
-		.nav-desktop .logo-nav img {
-			width: 60%;
-			height: auto;
-		}
-
+    .nav-desktop .logo-nav img {
+        width: 60%;
+        height: auto;
+    }
     .drop .dropdown a {
-      float: right;
+        float: right;
     }
-
     .dropdown {
         display: none;
         position: absolute;
-        background-color: rgba(0,0,0,0.05);
+        background-color: rgba(0, 0, 0, 0.05);
     }
-
 }
+
 
 /* end mobile nav */
 
@@ -219,7 +222,7 @@ li {
     padding: 20px;
     text-decoration: none;
     font-size: 17px;
-		font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 li .drop:hover .dropbtn {
@@ -250,6 +253,8 @@ li .drop {
 .drop:hover .dropdown {
     display: block;
 }
+
+
 /*end desktop nav*/
 
 
@@ -257,136 +262,136 @@ li .drop {
 
 
 /*---content start---*/
+
 .button {
-	display:block;
+    display: block;
     max-width: 300px;
     margin: 0 auto;
     width: 90%;
-		padding: 20px 20px 20px 50px;
-}
-.button a img {
-  padding: 15px 0 15px 0;
-  opacity: 0.6;
-}
-.button a:hover img {
-  opacity: 1;
+    padding: 20px 20px 20px 50px;
 }
 
-figcaption{
-  width: 60%;
-  margin: auto;
+.button a img {
+    padding: 15px 0 15px 0;
+    opacity: 0.6;
+}
+
+.button a:hover img {
+    opacity: 1;
+}
+
+figcaption {
+    width: 60%;
+    margin: auto;
 }
 
 figcaption h1 {
-  text-align: left;
-  letter-spacing: 2px;
-  color:grey;
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 figcaption p {
-  font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 15px;
-  padding-top: 5px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 15px;
+    padding-top: 5px;
 }
 
 .portfolio-img {
-  padding: 20px 0 20px 0;
-  display:block;
+    padding: 20px 0 20px 0;
+    display: block;
     max-width: 300px;
     margin: 0 auto;
     width: 90%;
 }
 
 @media only screen and (min-width: 640px) {
-
-  main {
-    width:85%;
-    margin:auto;
-  }
-/*for project pages*/
-  figure {
-    display: table;
-    margin-top: 5%;
-  }
-
-  figcaption {
-    width: 40%;
-    padding-right: 10%;
-    display: table-cell;
-    vertical-align: top;
+    main {
+        width: 85%;
+        margin: auto;
+    }
+    /*for project pages*/
+    figure {
+        display: table;
+        margin-top: 5%;
+    }
+    figcaption {
+        width: 40%;
+        padding-right: 10%;
+        display: table-cell;
+        vertical-align: top;
+    }
+    .portfolio-img {
+        margin-right: 20%;
+        display: table-cell;
+    }
+    /*end of project pages*/
+    .button {
+        display: inline;
+    }
+    .button ul .row1, .button ul .row2 {
+        display: table;
+        margin: 0 auto;
+    }
+    .button a img {
+        padding: 20px;
+    }
+    .arrows {
+        display: inline;
+        position: relative;
+        z-index: -1;
+    }
+    .arrows ul li:nth-child(2) {
+        text-align: right;
+        float: right;
+        display: table-row;
+    }
+    .arrows li a .left {
+        display: table-row;
+    }
+    .arrows ul li a img {
+        width: 7%;
+        height: auto;
+    }
 }
 
-  .portfolio-img {
-    margin-right: 20%;
-    display: table-cell;
-  }
-/*end of project pages*/
-  .button {
-    display: inline;
-  }
-  .button ul .row1, .button ul .row2 {
-    display: table;
-    margin: 0 auto;
-  }
-  .button a img{
-    padding: 20px;
-  }
-
-  .arrows {
-    display: inline;
-    position: relative;
-    z-index: -1;
-  }
-
-  .arrows ul li:nth-child(2) {
-    text-align: right;
-    float: right;
-    display: table-row;
-  }
-
-  .arrows li a .left {
-    display: table-row;
-}
-
-	.arrows ul li a img{
-		width: 7%;
-		height: auto;
-	}
-
-}
 
 /*---content end---*/
 
+
 /*---FOOTER---*/
-.up-mobile img{
-	display: block;
-	position:fixed;
-	bottom:30px;
-	height:4%;
-	width:auto;
-	padding: 20px;
-	left:85%;
-	opacity: 0.5;
+
+.up-mobile img {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    height: 4%;
+    width: auto;
+    padding: 20px;
+    left: 85%;
+    opacity: 0.5;
 }
 
 @media only screen and (min-width: 640px) {
-	footer .up-mobile img {
-		display: none;
-	}
+    footer .up-mobile img {
+        display: none;
+    }
 }
 
 h6 {
-	text-align: center;
-	padding: 50px 10px 10px 10px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: grey;
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
 }
 
 h6 a {
-	text-decoration: none;
-	color: grey;
+    text-decoration: none;
+    color: grey;
 }
+
+
 /*---footer ends---*/
