@@ -49,7 +49,7 @@ table {
 
 @media only screen and (min-width: 640px) {
 #wrapper {
-	width: 1000px;
+	width: 1240px;
 	height: auto;
 	margin: auto;
 }
@@ -74,6 +74,7 @@ table {
 
 h1 {
     text-align: center;
+		letter-spacing: 2px;
 		color:grey;
 		font-size: 15px;
 		font-family: helvetica,sans-serif; /*CHANGE FONT*/
@@ -137,15 +138,21 @@ li .drop {
     #menu-icon {
         display: hidden;
     }
+		.nav {
+			padding: 0 200px 0 200px;
+		}
 		.nav-desktop {
-			display:inline-block;
+			display: inline-block;
+			position: relative;
 			text-align: center;
 		}
 
-		.nav-desktop li img {
-			width: 15%;
+
+		.nav-desktop .logo-nav img {
+			width: 20%;
 			height: auto;
 		}
+
 }
 
 
@@ -171,6 +178,7 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+		font-family: helvetica, sans-serif;
 }
 
 li .drop:hover .dropbtn {
@@ -228,8 +236,19 @@ li .drop {
 	.button {
 		display: inline-block;
 		position: relative;
-		margin:auto;
 		padding: 20px;
+	}
+
+	.left-mobile a img{
+		display: block;
+		width: 20px;
+		height: auto;
+	}
+
+	.right-mobile a img{
+		display: block;
+		width: 20px;
+		height: auto;
 	}
 
 }
@@ -250,11 +269,19 @@ li .drop {
 
 @media only screen and (min-width: 640px) {
 	footer .up-mobile img {
-		display: hidden; /*FIX THISSSSSS*/
+		display: none;
 	}
 }
 
 h6 {
+	text-align: center;
+	padding: 10px;
+	font-family: helvetica, sans-serif; /*CHANGE FONTTTT*/
+	color: grey;
+}
 
+h6 a {
+	text-decoration: none;
+	color: lightsteelblue;
 }
 /*---footer ends---*/
