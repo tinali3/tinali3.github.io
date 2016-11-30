@@ -216,8 +216,6 @@ li .drop {
 .drop:hover .dropdown {
     display: block;
 }
-
-
 /*end desktop nav*/
 
 
@@ -243,6 +241,36 @@ li .drop {
     width:75%;
     margin:auto;
   }
+
+  figure {
+    display: table;
+    margin-top: 5%;
+  }
+
+  figcaption {
+    width: 35%;
+    display: table-cell;
+    vertical-align: top;
+}
+figcaption h1 {
+  text-align: left;
+  letter-spacing: 2px;
+  color:grey;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+figcaption p {
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 15px;
+  padding-top: 5px;
+}
+
+  .portfolio-img {
+    width: 80%;
+    display: table-cell;
+  }
+
   .button {
     display: inline;
   }
