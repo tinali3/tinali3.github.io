@@ -275,6 +275,11 @@ li .drop {
     padding: 20px 20px 20px 50px;
 }
 
+.button ul li {
+  width: 30%;
+  display: table;
+}
+
 .button a img {
     padding: 15px 0 15px 0;
     opacity: 0.6;
@@ -353,8 +358,8 @@ figcaption p a:visited {
         display: table-cell;
         vertical-align: top;
     }
+    
     .portfolio-img {
-        margin-right: 20%;
         display: table-cell;
     }
     /*end of project pages*/
@@ -367,7 +372,7 @@ figcaption p a:visited {
     }
 
     .button li img {
-      width: 80%;
+      width: 95%;
     }
 
     .button ul .row1, .button ul .row2 {
@@ -375,12 +380,11 @@ figcaption p a:visited {
         margin: 0 auto;
     }
     .button a img {
-        padding: 20px;
+        padding: 0 35px 0 35px;
     }
     .arrows {
         display: inline;
         position: relative;
-        z-index: -1;
     }
     .arrows ul li:nth-child(2) {
         text-align: right;
@@ -391,8 +395,9 @@ figcaption p a:visited {
         display: table-row;
     }
     .arrows ul li a img {
-        width: 7%;
+        width: 5%;
         height: auto;
+        padding:10%;
     }
     /*pdf file*/
     .projects object {
