@@ -112,6 +112,7 @@ li .drop {
 
 .dropdown a {
     color: grey;
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     display: block;
     text-align: right;
@@ -119,6 +120,15 @@ li .drop {
 
 .dropdown a:hover {
     color: #91C8D6;
+}
+.nav-mobile .drop .dropdown {
+  background-color: none;
+  padding:10px;
+  top:90px;
+  left:20px;
+}
+.nav-mobile .drop .dropdown a {
+  text-align: left;
 }
 
 .drop:hover .dropdown {
@@ -178,6 +188,12 @@ li .drop {
       float: right;
     }
 
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: rgba(0,0,0,0.05);
+    }
+
 }
 
 /* end mobile nav */
@@ -217,7 +233,6 @@ li .drop {
 .dropdown {
     display: none;
     position: absolute;
-    background-color: rgba(0,0,0,0.05);
 }
 
 .drop .dropdown a {
